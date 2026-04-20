@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links a.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.page-content {
+  padding: 20px;
+}
+
+.card {
+  max-width: 520px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.error-msg {
+  color: #e11d48;
+  background: #ffe4e6;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
